@@ -1,4 +1,7 @@
+import os
 import random
+import time
+
 
 print("Bem Vindo(a) ao jogo Rock Paper Scissors!")
 while True:
@@ -59,3 +62,5 @@ while True:
             if SAIR.upper() == "Q":
                 break
             print('-------------------')
+
+        time.sleep(1)
